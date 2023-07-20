@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #dcdcdc;
+    color: #170101;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+D {
+    text-align: left;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    text-align: right;
+}
+
+main {
+    padding: 20px;
+}
+
+
+h2,
+h1,
+p {
+    top: 80px;
+    left: 0px;
+    width: 99vw;
+    height: 300px;
+    background: #13E8F163 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+
+
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.custom-button {
+    margin: 0 5px;
+    padding: 10px 10px;
+    /* Adjust the padding to increase button size */
+    font-size: 16px;
+    /* Adjust the font size to increase button size */
+}
+
+.navbar-brand {
+    float: right;
+    color: #000000;
+}
+
+.navbar-brand img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: calc(25vh - 100px);
+    background-color: #f5f5f5;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+    background-color: #bababa;
+    text-align: center;
+    /* Add this property to center align the content */
+}
+
+
+#coffeeimg {
+    width: 1200px;
+    height: 500px;
+    margin-top: -200px;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    nav ul {
+        display: none;
+    }
+
+    nav .navbar-brand {
+        float: none;
+        text-align: center;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .icon-container1 {
+        height: auto;
+    }
+
+    .icon {
+        width: 150px;
+        height: 150px;
+    }
+
+    #coffeeimg {
+        width: 100%;
+        height: auto;
+    }
+}

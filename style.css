@@ -1,0 +1,323 @@
+/* CSS for the navigation bar */
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #ce0202;
+    color: #170101;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+
+    display: inline;
+}
+
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0d0101;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+D {
+    text-align: left;
+}
+
+nav {
+    background-color: hsl(0, 0%, 91%);
+    padding: 10px;
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    text-align: right;
+}
+
+main {
+    padding: 20px;
+}
+
+
+h2,
+p {
+    text-align: center;
+}
+
+D {
+    text-align: left;
+}
+
+.navbar-brand {
+    float: right;
+    color: #000000;
+}
+
+.navbar-brand img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+
+.middle-section {
+    width: 100vw;
+    height: auto;
+    background-color: rgba(19, 232, 241, 0.388);
+    padding: 20px;
+    text-align: center;
+    color: #020000;
+}
+
+.icon-container {
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    margin: 10px;
+}
+
+.mini-image {
+    height: 715px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mini-image img {
+    width: 139px;
+    height: 141px;
+
+}
+
+.about-me,
+p {
+    text-align: center;
+
+}
+
+
+.button-container {
+    margin-top: 20px;
+    /* Decrease the margin between about-me and button-container */
+}
+
+.button {
+    margin-top: 10px;
+
+    /* Decrease the margin between the button and the text */
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-form {
+    width: 300px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    width: 50%;
+    padding: 8px;
+    background-color: #1AE0EC;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.contact-form {
+    width: 1920px;
+    height: 671px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 1;
+    /* Add this line to reduce the line height */
+}
+
+.iconDownArea {
+    background-color: #1AE0EC;
+    width: 99vw;
+    height: 15vh;
+}
+
+.iconDownArea ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    margin-top: 30px;
+
+}
+
+.iconDownArea ul li {
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.iconDownArea ul li img {
+    width: 35px;
+    height: 35px;
+}
+
+.footer p {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.border1 {
+    border-bottom: 2px solid #1AE0EC;
+}
+
+.contact-form img {
+    display: block;
+    /* Add this line to make the image a block element */
+    margin: 0 auto;
+    /* Add this line to center the image */
+    max-width: 100%;
+    /* Add this line to ensure the image doesn't exceed its container */
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    /* Styles for mobile devices */
+    .contact-photo img.imageg {
+        display: none;
+    }
+
+    header {
+        font-size: 24px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav .navbar-brand {
+        width: auto;
+        height: auto;
+        float: none;
+        text-align: center;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .middle-section {
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+
+    .icon-container {
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .icon {
+        width: 70px;
+        height: 70px;
+        margin: 5px;
+    }
+
+    .mini-image {
+        height: auto;
+    }
+
+    .mini-image img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .about-me {
+        padding: 10px;
+    }
+
+    .contact-container {
+
+        flex-direction: column;
+    }
+
+
+    .contactus {
+        width: auto;
+        padding: 10px;
+        margin-right: -400px;
+    }
+
+    .contact-photo {
+        width: 100vw;
+    }
+}
