@@ -76,12 +76,16 @@ button {
         width: 90%;
         max-width: 100%;
         height: auto;
+        top: initial;
+        left: initial;
+        transform: none;
     }
 
     div {
         width: 90%;
         max-width: 100%;
         height: 62px;
+        top: initial;
         margin: 1rem auto;
     }
 
